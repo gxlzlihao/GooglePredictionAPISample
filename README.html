@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Command Line Prediction API Sample</title>
+  <meta charset="utf-8" />
+  <style type="text/css" media="screen">
+    body {
+      padding: 2em;
+      width: 800px;
+      font-family: helvetica, arial, sans-serif;
+    }
+    code {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Command Line Prediction API Sample Instructions</h1>
+   <div>
+  <p>
+    A starter application has been generated for you.
+  </p>
+  <ol>
+    <li>Install <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Platform (JDK 6 or higher)</a>.</li>
+    <li>Install <a href="http://maven.apache.org/download.html">Maven (3.1.0 or higher)</a>. You may need to set your <code>JAVA_HOME</code>.</li>
+    <li><a href='https://developers.google.com/qs/c/gen?api=prediction&amp;apikey=&amp;client_secret_url=https%3A%2F%2Fcode.google.com%2Fapis%2Fquick%2Fclient-secrets%3Fproject%3D858822147939%26client%3D858822147939-mslar5bn80ujqei6svhnnkcglcnjnj8u.apps.googleusercontent.com%26xsrf%3DAL254vTrfHYxpWUN2PqPgSRLgFcIsQxixw%3A1400101713865&amp;key=ekdix_RkZKXnGdH4tv63n9nk2BE6MTQwMDEwMDgyNTE4NDQ4OTg4NA%3D%3D&amp;lang_plat=java_cmdline_skeleton&amp;project=858822147939&amp;version=v1.6'>Download the starter application</a> and unzip it.</li>
+    <li><a href='https://code.google.com/apis/quick/client-secrets?project=858822147939&amp;client=858822147939-mslar5bn80ujqei6svhnnkcglcnjnj8u.apps.googleusercontent.com&amp;xsrf=AL254vTrfHYxpWUN2PqPgSRLgFcIsQxixw:1400101713865'>Download the client secrets file</a>
+    and overwrite the <code>src/main/resources/client_secrets.json</code> file that was included
+    in the application.</li>
+    <li>Open a terminal, change to the <code>prediction-cmd-line-sample</code> directory you just unzipped, and execute:
+    <pre>
+mvn compile
+mvn -q exec:java
+    </pre>
+    This will compile and run your starter application in the command line.
+    </li>
+  </ol>
+
+  <p>Congratulations, you are up and running! At this point you will want to add
+  calls into the Prediction API to the
+  <code>/src/main/java/com/google/api/services/samples/prediction/cmdline/PredictionSample.java</code> file.
+  Please read the file carefully, it contains detailed information in
+  the comments.
+
+  <p>To enable logging of HTTP requests and responses (highly recommended
+  when debugging), please take a look at the <code>logging.properties</code> file.</p>
+
+  <p>For more information on the Prediction API Java library surface you can visit: </p>
+
+ <blockquote>
+   <p>
+   <a target=_blank
+    href='https://developers.google.com/resources/api-libraries/documentation/prediction/v1.6/java/latest/'>
+    https://develpers.google.com/resources/api-libraries/documentation/prediction/v1.6/java/latest/</a>
+   </p>
+ </blockquote>
+
+  <p>
+  Also check out the <a
+    target=_blank
+    href='https://code.google.com/p/google-api-java-client/wiki/DeveloperGuide'>
+    Java Client Library documentation</a>, and get more information on the
+  Prediction API at:
+  </p>
+
+  <blockquote>
+    <p>
+    <a target=_blank
+      href='https://developers.google.com/prediction/docs/developer-guide'>https://developers.google.com/prediction/docs/developer-guide</a>
+    </p>
+  </blockquote>
+
+  <h3>Setup Project in Eclipse</h3>
+
+  <p>
+    <b>Prerequisites:</b> install <a href="http://www.eclipse.org/downloads/">Eclipse</a>,
+    and the
+    <a href="http://eclipse.org/m2e/download/">Maven
+      plugin</a>.
+  </p>
+
+  <ul>
+    <li>Setup Eclipse Preferences
+      <ul>
+        <li>Window &gt; Preferences... (or on Mac, Eclipse &gt;
+          Preferences...)</li>
+        <li>Select Maven
+          <ul>
+            <li>check on "Download Artifact Sources"</li>
+            <li>check on "Download Artifact JavaDoc"</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Import <code>prediction-cmd-line-sample</code> project
+      <ul>
+        <li>File &gt; Import...</li>
+        <li>Select "General &gt; Existing Project into Workspace" and click
+          "Next"</li>
+        <li>Click "Browse" next to "Select root directory", find
+          <code>prediction-cmdline-sample</code> and click "Next"
+        </li>
+        <li>Click "Finish"</li>
+      </ul>
+    </li>
+    <li>Run
+      <ul>
+        <li>Right-click on project prediction-cmd-line-sample</li>
+        <li>Run As &gt; Java Application</li>
+        <li>If asked, type "PredictionSample" and click OK</li>
+      </ul>
+    </li>
+  </ul>
+
+</div>
+
+</body>
+</html>
